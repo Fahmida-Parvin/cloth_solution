@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+@import '_variables.scss';
+@import '_global.sass';
+
+@import 'partials/_nav.sass';
+
+//pages
+
+@import './pages/home.sass';
+@import './pages/auth.sass';
+@import './pages/accounts.sass';
+@import './pages/product.sass';
+@import './pages/cart.sass';
+@import './pages/wishlist.sass';
+@import './pages/laundry.sass';
+@import './pages/pickup.sass';
+@import './pages/checkout.sass';
+@import './pages/success.sass';
+
+
+@import './pages/components/productBox.sass';
+@import './pages/components/popUp.sass';
